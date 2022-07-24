@@ -1,0 +1,35 @@
+@import url(//db.onlinewebfonts.com/c/fce1ae337c2b8b2bf2518b7d5127e030?family=EcoCodingWGL4W01-Regular);
+body {
+    background-color: rgb(32,28,28);
+}
+
+ul {
+    list-style-type: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    border-radius: 1%;
+    float: left;
+  }
+  
+  li a {
+    border-radius: 5px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
