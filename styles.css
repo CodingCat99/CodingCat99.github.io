@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background-color: #1e1e1e;
 }
 
@@ -11,11 +12,17 @@ ul {
   background-color: #333;
 }
 
+li.right {
+  float: right;
+}
+
 li {
   float: left;
 }
 
 li a {
+  font-size: 16px;
+  font-family: 'Courier New';
   border-radius: 5px;
   display: block;
   color: white;
@@ -26,6 +33,30 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #111;
+}
+h3 {
+  text-align: center;
+}
+
+article {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  font-family: 'Courier New';
+  background-color: #333;
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Courier New';
+  border-radius: 5px;
+  display: block;
+  color: white;
+  padding: 1px 16px;
+  text-decoration: none;
 }
 
 .active {
