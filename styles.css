@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/fce1ae337c2b8b2bf2518b7d5127e030?family=EcoCodingWGL4W01-Regular);
+@import url(https://fonts.googleapis.com/css?family=Fira)
 body {
     background-color: rgb(32,28,28);
 }
@@ -24,6 +24,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Fira Code;
   }
   
   li a:hover:not(.active) {
