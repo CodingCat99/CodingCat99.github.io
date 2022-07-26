@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background-color: #1e1e1e;
@@ -34,15 +40,24 @@ li a {
 li a:hover:not(.active) {
   background-color: #111;
 }
+
 h3 {
   font-family: 'Courier New';
   text-align: center;
 }
+
+span {
+  color: wheat;
+  font-family: 'Courier New';
+  text-align: center;
+}
+
 h4 {
   font-size: 14px;
   font-family: 'Courier New';
   text-align: center;
 }
+
 article {
   margin: 0;
   color: white;
@@ -66,4 +81,40 @@ p {
 
 .active {
   background-color: #04AA6D;
+}
+
+/* Splash Screen */
+.intro {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #04AA6D;
+  transition: 1s;
+}
+
+.logo-header {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+}
+.logo.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+.logo.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
 }
