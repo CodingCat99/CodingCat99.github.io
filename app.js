@@ -1,8 +1,8 @@
 var myVar;
-print("Website Launched")
+console.log("Website Launched")
 function myFunction() {
   myVar = setTimeout(showPage, 3000);
-  print("Loading Complete");
+  console.log("Loading Complete");
 }
 
 function showPage() {
