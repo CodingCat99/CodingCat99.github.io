@@ -3,20 +3,20 @@ let logo = document.querySelector("h1logo")
 window.addEventListener("DOMContentLoaded", ()=>{
     setTimeout(()=>{
         intro.style.top = '50vh';
-    }, 500)
+    }, 2500)
 });
 window.addEventListener("DOMContentLoaded", ()=>{
     setTimeout(()=>{
         intro.style.top = '75vh';
-    }, 1500)
+    }, 3500)
 })
 window.addEventListener("DOMContentLoaded", ()=>{
     setTimeout(()=>{
         intro.style.top = '25vh';
-    }, 2500)
+    }, 4500)
 })
 window.addEventListener("DOMContentLoaded", ()=>{
     setTimeout(()=>{
         intro.style.top = '100vh';
-    }, 3500)
+    }, 5500)
 })
