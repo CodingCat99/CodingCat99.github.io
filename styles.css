@@ -6,6 +6,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
+  position: sticky;
   padding: 0;
   overflow: hidden;
   border-radius: 5px;
@@ -19,6 +20,7 @@ li.right {
 li {
   float: left;
 }
+
 
 li a {
   font-size: 16px;
@@ -54,14 +56,14 @@ article {
   font-family: 'Courier New';
   background-color: #333;
   border-radius: 5px;
-  width: fit-content;
+  float: left;
   height: fit-content;
 }
 
 p {
   font-size: 12px;
   font-family: 'Courier New';
-  border-radius: 5px;
+  border-radius: 5cm;
   display: block;
   color: white;
   padding: 1px 16px;
