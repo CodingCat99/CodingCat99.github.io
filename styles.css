@@ -17,6 +17,16 @@ li.right {
   float: right;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration:underline;
+}
 li {
   float: left;
 }
