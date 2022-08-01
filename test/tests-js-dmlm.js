@@ -1,0 +1,1 @@
+console.log("dark/light mode script script launched successfully")

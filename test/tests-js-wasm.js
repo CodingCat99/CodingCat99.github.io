@@ -1,0 +1,1 @@
+console.log("wasm script launched successfully")

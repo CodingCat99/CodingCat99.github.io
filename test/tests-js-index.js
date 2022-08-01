@@ -1,0 +1,1 @@
+console.log("tests homepage script launched successfully")
