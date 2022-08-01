@@ -27,16 +27,15 @@ footer {
 }
 a {
   color: white;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 li {
   float: left;
 }
 
-
 li a {
   font-size: 16px;
-  font-family: 'Courier New';
+  font-family: "Courier New";
   border-radius: 5px;
   display: block;
   color: white;
@@ -50,14 +49,13 @@ li a:hover:not(.active) {
 }
 
 h3 {
-  font-family: 'Courier New';
+  font-family: "Courier New";
   text-align: center;
 }
 
-
 h4 {
   font-size: 14px;
-  font-family: 'Courier New';
+  font-family: "Courier New";
   text-align: center;
 }
 
@@ -65,16 +63,18 @@ article {
   margin: 0;
   color: white;
   font-size: 14px;
-  font-family: 'Courier New';
+  font-family: "Courier New";
   background-color: #333;
   border-radius: 5px;
   float: left;
   height: fit-content;
 }
-
+.footertest {
+  height: fit-content;
+}
 p {
   font-size: 12px;
-  font-family: 'Courier New';
+  font-family: "Courier New";
   border-radius: 5cm;
   display: block;
   color: white;
@@ -83,7 +83,13 @@ p {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
+  border-radius: 5px;
+}
+
+.disactive {
+  background-color: #aa0404;
+  border-radius: 5px;
 }
 
 #loader {
@@ -102,13 +108,21 @@ p {
 }
 
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Add animation to "page content" */
@@ -117,17 +131,29 @@ p {
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
-  animation-duration: 1s
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
 }
 
 #myDiv {
@@ -136,22 +162,30 @@ p {
 }
 
 .animate-in {
-  -webkit-animation: fadeIn .5s ease-in;
-  animation: fadeIn .5s ease-in;
+  -webkit-animation: fadeIn 0.5s ease-in;
+  animation: fadeIn 0.5s ease-in;
 }
 
 .animate-out {
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
   opacity: 0;
 }
 
 @-webkit-keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
