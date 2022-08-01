@@ -50,6 +50,17 @@ li a:hover:not(.active) {
 
 h3 {
   font-family: "Courier New";
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-family: "Courier New";
+  color: white;
+  text-align: center;
+}
+h2 {
+  font-family: "Courier New";
+  color: white;
   text-align: center;
 }
 
